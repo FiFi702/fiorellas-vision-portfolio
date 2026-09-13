@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     "codex-preview": "development",
   },
   icons: {
-    icon: "/fiorellas-vision-portfolio/favicon.png",
-    shortcut: "/fiorellas-vision-portfolio/favicon.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
   },
 };
 
