@@ -49,7 +49,7 @@ export function Header({ inverse = false }: { inverse?: boolean }) {
       <Link href="/" className="brand" aria-label="Fiorella’s Vision home">
         <Image
           className="brand-logo"
-          src="/fiorellas-vision-portfolio/images/fiorellas-vision-logo.png"
+          src="/images/fiorellas-vision-logo.png"
           alt="Fiorella’s Vision"
           width={3392}
           height={504}
