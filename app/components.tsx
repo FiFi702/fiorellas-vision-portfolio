@@ -84,9 +84,9 @@ export function Footer() {
           <span>Malta</span>
         </div>
         <div className="footer-end">
-          <Link href="/">Fiorella’s Vision</Link>
-          <span>© {new Date().getFullYear()}</span>
-        </div>
+  <Link href="/">Fiorella’s Vision</Link>
+  <span>© {new Date().getFullYear()} Fiorella’s Vision. All rights reserved.</span>
+</div>
       </div>
     </footer>
   );
