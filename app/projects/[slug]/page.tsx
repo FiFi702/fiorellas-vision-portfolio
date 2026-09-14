@@ -38,21 +38,21 @@ export default async function ProjectPage({ params }: PageProps) {
   const nextProject = projectsByYear[(index + 1) % projectsByYear.length];
   const hasVideoLead = project.slug === "music-video" || project.slug === "there-for-you";
   const heroLogo = project.slug === "studyspark"
-    ? { src: "/fiorellas-vision-portfolio/images/studyspark-logo.png", width: 1224, height: 638 }
+    ? { src: "/images/studyspark-logo.png", width: 1224, height: 638 }
     : project.slug === "noma"
-      ? { src: "/fiorellas-vision-portfolio/images/noma-logo.png", width: 950, height: 307 }
+      ? { src: "/images/noma-logo.png", width: 950, height: 307 }
       : project.slug === "rightfit"
-        ? { src: "/fiorellas-vision-portfolio/images/rightfit-logo.png", width: 2731, height: 1298 }
+        ? { src: "/images/rightfit-logo.png", width: 2731, height: 1298 }
         : project.slug === "millies-ribbon"
-          ? { src: "/fiorellas-vision-portfolio/images/millies-ribbon-wordmark.png", width: 1203, height: 212 }
+          ? { src: "/images/millies-ribbon-wordmark.png", width: 1203, height: 212 }
           : project.slug === "there-for-you"
-            ? { src: "/fiorellas-vision-portfolio/images/there-for-you-logo-v2.png", width: 868, height: 217 }
+            ? { src: "/images/there-for-you-logo-v2.png", width: 868, height: 217 }
             : project.slug === "coffee-crush"
-              ? { src: "/fiorellas-vision-portfolio/images/coffee-crush-logo.png", width: 1452, height: 775 }
+              ? { src: "/images/coffee-crush-logo.png", width: 1452, height: 775 }
             : project.slug === "pinterest-advert"
-              ? { src: "/fiorellas-vision-portfolio/images/pinterest-wordmark.png", width: 564, height: 143 }
+              ? { src: "/images/pinterest-wordmark.png", width: 564, height: 143 }
             : project.slug === "wine-bar-advert"
-              ? { src: "/fiorellas-vision-portfolio/images/il-mulino-logo.png", width: 750, height: 450 }
+              ? { src: "/images/il-mulino-logo.png", width: 750, height: 450 }
             : null;
   const usesSlideshow = [
     "wine-bar-advert",
